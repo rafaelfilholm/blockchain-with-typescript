@@ -1,17 +1,11 @@
 class Blockchain {
 	
 	private chain: Array<any>
-	private pedingTransactions: Array<any>
-	private currentNodeUrl: string
+	private newTransactions: Array<any>
 	
-	constructor(
-		chain: Array<any>, 
-		pedingTransactions: Array<any>,
-		currentNodeUrl: string
-	){
-		this.chain = chain
-		this.pedingTransactions = pedingTransactions
-		this.currentNodeUrl = currentNodeUrl
+	constructor(){
+		this.chain = []
+		this.newTransactions = []
 	}
 
 }
