@@ -8,7 +8,7 @@ export default class Blockchain {
 		this.newTransactions = [];
 	}
 
-	createNewBlock(nonce: any, previousBlockHash: string, hash: string){
+	createNewBlock(nonce: any, previousBlockHash: string, hash: string): any{
 		const newBlock = {
 			index: this.chain.length + 1,
 			timestamp: Date.now(),
