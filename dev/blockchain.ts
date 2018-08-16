@@ -1,11 +1,11 @@
-class Blockchain {
+export default class Blockchain {
 	
-	private chain: Array<any>
-	private newTransactions: Array<any>
+	private chain: Array<any>;
+	private newTransactions: Array<any>;
 	
 	constructor(){
-		this.chain = []
-		this.newTransactions = []
+		this.chain = [];
+		this.newTransactions = [];
 	}
 
 	createNewBlock(nonce: any, previousBlockHash: string, hash: string){
@@ -16,7 +16,7 @@ class Blockchain {
 			nonce: nonce,
 			hash: hash,
 			previousBlockHash: previousBlockHash,
-		}
+		};
 
 		/* Clear new transactions */
 		this.newTransactions = [];
