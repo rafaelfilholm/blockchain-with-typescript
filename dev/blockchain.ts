@@ -26,4 +26,8 @@ export default class Blockchain {
 
 		return newBlock;
 	}
+
+	getLastBlock(): any {
+		return this.chain[this.chain.length - 1];
+	}
 }
