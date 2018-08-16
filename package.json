@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-with-typescript",
+  "version": "1.0.0",
+  "description": "Blockchain developed in Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelfilholm/blockchain-with-typescript.git"
+  },
+  "keywords": [
+    "blockchain",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Rafael Laurindo <rafaelfilholm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelfilholm/blockchain-with-typescript/issues"
+  },
+  "homepage": "https://github.com/rafaelfilholm/blockchain-with-typescript#readme"
+}
