@@ -2,8 +2,16 @@ import Blockchain from './blockchain';
 
 const bitcoin = new Blockchain();
 
-bitcoin.createNewBlock(2018, 'OIUBIAUSY654', 'OIUNA6816875');
-bitcoin.createNewBlock(545, 'OIUBIAUSY654', 'YAYTAA8888A');
 bitcoin.createNewBlock(888, 'ASDASUYBUYG', 'KUYAYNY7887A');
 
-console.log(bitcoin.getLastBlock());
+bitcoin.createNewTransaction(100, 'KUYAYNY7887A', 'JENN0UHAIUSHDIASDASD');
+
+bitcoin.createNewBlock(548, 'AAJHHGAAJJAIUY', 'IUAIUSAUYSAS');
+
+bitcoin.createNewTransaction(200, 'RAFAIUASIAS6468', 'FILHO0UHAIUSHDIASDASD');
+bitcoin.createNewTransaction(20, 'RAFAIUASIAS6468', 'FILHO0UHAIUSHDIASDASD');
+bitcoin.createNewTransaction(10, 'RAFAIUASIAS6468', 'FILHO0UHAIUSHDIASDASD');
+
+bitcoin.createNewBlock(55, 'JENN0UHAIUSHDIASDASD', 'KHAKSHASA');
+
+console.log(bitcoin);
